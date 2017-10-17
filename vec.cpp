@@ -24,7 +24,7 @@ void Vec3::set_z(double value) { z = value; }
 // YOUR WORK GOES HERE
 ostream& operator<<(ostream& out, const Vec3& V)
 {
-   out << "(" << v.get_x() << ", " << v.get_y() << ", " << v.get_z() << ")"; 
+   out << "(" << V.get_x() << ", " << V.get_y() << ", " << V.get_z() << ")"; 
    return out;
 }
 
