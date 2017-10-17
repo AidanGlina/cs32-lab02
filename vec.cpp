@@ -24,12 +24,12 @@ void Vec3::set_z(double value) { z = value; }
 // YOUR WORK GOES HERE
 ostream& operator<<(ostream& out, const Vec3& V)
 {
-   os << "(" << v.get_x() << ", " << v.get_y() << ", " << v.get_z() << ")"; 
+   out << "(" << v.get_x() << ", " << v.get_y() << ", " << v.get_z() << ")"; 
    return out;
 }
 
 istream& operator>>(istream& in,  Vec3& V)
 {
-   istrm >> V.x >> V.y >> V.z;
+   in >> V.x >> V.y >> V.z;
    return in;
 }
