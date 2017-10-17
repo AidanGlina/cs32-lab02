@@ -19,7 +19,7 @@ class Vec3 {
     friend
     ostream& operator << (std::ostream& out, const Vec3& V);
     friend
-    ostream& operator >> (std::istream& in, Vec3& V);
+    istream& operator >> (std::istream& in, Vec3& V);
     
     // constructors already done
     Vec3();
