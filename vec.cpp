@@ -40,7 +40,7 @@ Vec3 operator +(const Vec3& v1, const Vec3& v2)
  return v3;
 }
 
-Vec3 operator *(const Vec3& v1, double d)
+Vec3 operator *(const Vec3& v1, const double& d)
 {
    Vec3 v2 = Vec3(d*v1.x, d*v1.y, d*v1.z);
    return v2;
