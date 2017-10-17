@@ -25,11 +25,11 @@ void Vec3::set_z(double value) { z = value; }
 ostream& operator<<(ostream& out, const Vec3& V)
 {
    os << "(" << v.get_x() << ", " << v.get_y() << ", " << v.get_z() << ")"; 
-   return os;
+   return out;
 }
 
 istream& operator>>(istream& in,  Vec3& V)
 {
    istrm >> V.x >> V.y >> V.z;
-   return istrm;
+   return in;
 }
