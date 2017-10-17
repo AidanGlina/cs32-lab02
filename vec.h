@@ -11,15 +11,15 @@ class Vec3 {
 
    // NON-MEMBER BINARY OPERATORS
     friend
-    polynomial operator +(const Vec3& v1, const Vec3& v2);
+    Vec3 operator +(const Vec3& v1, const Vec3& v2);
     friend 
-    polynomial operator *(const Vec3& v1, const Vec3& v2);
+    Vec3 operator *(const Vec3& v1, const Vec3& v2);
     
     // NON-MEMBER OUTPUT FUNCTION
     friend
-    std::ostream& operator << (std::ostream& out, const Vec3& V);
+    ostream& operator << (std::ostream& out, const Vec3& V);
     friend
-    std::ostream& operator >> (std::istream& in, Vec3& V);
+    ostream& operator >> (std::istream& in, Vec3& V);
     
     // constructors already done
     Vec3();
