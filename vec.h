@@ -13,7 +13,7 @@ class Vec3 {
     friend
     Vec3 operator +(const Vec3& v1, const Vec3& v2);
     friend 
-    Vec3 operator *(const Vec3& v1, const Vec3& v2);
+    Vec3 operator *(const Vec3& v1, const double& d);
     
     // NON-MEMBER OUTPUT FUNCTION
     friend
